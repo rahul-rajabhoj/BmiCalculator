@@ -19,7 +19,7 @@ function calculateBmi() {
                  else-if(finalBmi > 35 && finalBmi < 40){
                     document.bmiForm.meaning.value = "SEVERELY OBESE";
                 }
-                else(finalBmi > 40){
+                else-if(finalBmi > 40){
                     document.bmiForm.meaning.value = "VERY SEVERELY OBESE";
                 }
             }
