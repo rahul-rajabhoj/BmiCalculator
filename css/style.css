@@ -21,7 +21,7 @@ h6 {
 }
 
 #banner_image {
-    background: url(../img/bg4.jpg) repeat center center;
+    background: url(../img/bg4.jpg) no-repeat center center;
     background-size: contain;
 }
 
