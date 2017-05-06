@@ -27,4 +27,3 @@ function calculateBmi() {
                 alert("Please Fill in everything correctly");
                 }
             }
-       
