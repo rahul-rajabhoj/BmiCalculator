@@ -7,19 +7,19 @@ function calculateBmi() {
                 if(finalBmi < 18.5){
                     document.bmiForm.meaning.value = "UNDERWEIGHT";
                 }
-                else-if(finalBmi > 18.5 && finalBmi < 25){
+                else if(finalBmi > 18.5 && finalBmi < 25){
                     document.bmiForm.meaning.value = "NORMAL";
                 }
-                else-if(finalBmi > 25 && finalBmi < 30){
+                else if(finalBmi > 25 && finalBmi < 30){
                     document.bmiForm.meaning.value = "OVERWEIGHT";
                 }
-                else-if(finalBmi > 30 && finalBmi < 35){
+                else if(finalBmi > 30 && finalBmi < 35){
                     document.bmiForm.meaning.value = "OBESE";
                 }
-                 else-if(finalBmi > 35 && finalBmi < 40){
+                 else if(finalBmi > 35 && finalBmi < 40){
                     document.bmiForm.meaning.value = "SEVERELY OBESE";
                 }
-                else-if(finalBmi > 40){
+                else if(finalBmi > 40){
                     document.bmiForm.meaning.value = "VERY SEVERELY OBESE";
                 }
             }
